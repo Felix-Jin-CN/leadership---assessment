@@ -75,4 +75,4 @@ async function exportPDF(){
   alert('PDF生成失败：'+(e?.message||'未知原因')+'。可先使用“下载本次结果 CSV”备份测评数据。');
  }finally{btn.disabled=false;btn.textContent='下载完整测评报告 PDF'}
 }
-</script><script src="https://cdn.jsdelivr.net/npm/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script></body></html>
+</script><script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script></body></html>
